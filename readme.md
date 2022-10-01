@@ -20,11 +20,11 @@ Scroll wheel zooms in or out.
       ```
 # Current Issues
 1. ```diff
-      - You can hardly see planets.
+   - You can hardly see planets.
    ```
 2. ```diff
-      - Turning time / s too high makes some planets fly off.
+   - Turning time / s too high makes some planets fly off.
    ```
 3. ```diff
-      - Planet trails don't get deleted and slow the game down.
+   - Planet trails don't get deleted and slow the game down.
    ```
