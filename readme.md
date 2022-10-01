@@ -1,4 +1,5 @@
 ### Planet Simulator Infoormation
+---
 # Description
 This is just a simple 2d simulation of the planets.
 # Controls
