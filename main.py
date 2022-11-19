@@ -76,8 +76,8 @@ class Planet:
 				updated_points.append((x, y))
 
 			pygame.draw.lines(win, self.color, False, updated_points, 2)
-
-		pygame.draw.circle(win, self.color, (x, y), (self.radius / Planet.AU) * (Planet.GameScale))
+		print(x,y)
+		pygame.draw.circle(win, self.color, (x, y), (self.radius) * (Planet.GameScale))
 		
 		if not self.sun:
 			distance_text = FONT.render(f"{round(self.distance_to_sun/1000, 1)}km", 1, WHITE)
